@@ -1,6 +1,6 @@
 <?php
 
-namespace KingFlamez\Rave;
+namespace Stephen\Rave;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -36,7 +36,7 @@ class RaveServiceProvider extends ServiceProvider
 
         });
 
-        $this->app->alias('laravelrave', "KingFlamez\Rave\Rave");
+        $this->app->alias('laravelrave', "Stephen\Rave\Rave");
     }
 
     /**

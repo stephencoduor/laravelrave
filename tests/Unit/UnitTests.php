@@ -6,7 +6,7 @@ use Carbon\Carbon;
 use Tests\TestCase;
 use ReflectionClass;
 use ReflectionProperty;
-use KingFlamez\Rave\Rave;
+use Stephen\Rave\Rave;
 use Tests\Stubs\PaymentEventHandler;
 use Tests\Concerns\ExtractProperties;
 
@@ -16,10 +16,10 @@ class UnitTests extends TestCase
     use ExtractProperties;
 
     /**
-     * Tests if app returns \KingFlamez\Rave\Rave if called with ailas.
+     * Tests if app returns \Stephen\Rave\Rave if called with ailas.
      *
      * @test
-     * @return \KingFlamez\Rave\Rave
+     * @return \Stephen\Rave\Rave
      */
     function initiateRaveFromApp()
     {
@@ -37,7 +37,7 @@ class UnitTests extends TestCase
      * @test
      *
      * @depends initiateRaveFromApp
-     * @param \KingFlamez\Rave\Rave $rave
+     * @param \Stephen\Rave\Rave $rave
      * @return void
      * @throws \ReflectionException
      */

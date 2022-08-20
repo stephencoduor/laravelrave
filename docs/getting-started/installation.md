@@ -8,7 +8,7 @@ This will guide you in installing the package
 To get the latest version of Flutterwave, simply use composer
 
 ```bash
-composer require kingflamez/laravelrave
+composer require stephen/laravelrave
 ```
 For **`Laravel => 5.5`**, skip this step and go to [**`configuration`**](#configuration)
 
@@ -20,7 +20,7 @@ Once Flutterwave is installed, you need to register the service provider. Open u
      * Package Service Providers...
      */
     ...
-    KingFlamez\Rave\RaveServiceProvider::class,
+    Stephen\Rave\RaveServiceProvider::class,
     ...
 ]
 ```
@@ -30,7 +30,7 @@ Also add this to the `aliases`
 ```php
 'aliases' => [
     ...
-    'Rave' => KingFlamez\Rave\Facades\Rave::class,
+    'Rave' => Stephen\Rave\Facades\Rave::class,
     ...
 ]
 ```
@@ -40,7 +40,7 @@ Also add this to the `aliases`
 Publish the configuration file using this command:
 
 ```bash
-php artisan vendor:publish --provider="KingFlamez\Rave\RaveServiceProvider"
+php artisan vendor:publish --provider="Stephen\Rave\RaveServiceProvider"
 ```
 
 A configuration-file named **`flutterwave.php`** will be placed in your **`config`** directory

@@ -46,7 +46,7 @@ A sample payment button will look like so:
 
 namespace App\Http\Controllers;
 
-use KingFlamez\Rave\Facades\Rave as Flutterwave;
+use Stephen\Rave\Facades\Rave as Flutterwave;
 
 class FlutterwaveController extends Controller
 {

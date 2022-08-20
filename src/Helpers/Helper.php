@@ -1,10 +1,9 @@
 <?php
 
-namespace KingFlamez\Rave\Helpers;
+namespace Stephen\Rave\Helpers;
 
 /**
  * Flutterwave's Rave payment laravel package
- * @author Oluwole Adebiyi - Flamez <flamekeed@gmail.com>
  * @version 3
  **/
 class Helper

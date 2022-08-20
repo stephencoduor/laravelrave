@@ -49,7 +49,7 @@ abstract class TestCase extends BaseTestCase {
      */
     protected function getPackageProviders($app)
     {
-        return [ "\KingFlamez\Rave\RaveServiceProvider" ];
+        return [ "\Stephen\Rave\RaveServiceProvider" ];
     }
 
     /**
@@ -61,7 +61,7 @@ abstract class TestCase extends BaseTestCase {
     protected function getPackageAliases($app)
     {
         return [
-            "Rave" => "\KingFlamez\Rave\Facades\Rave"
+            "Rave" => "\Stephen\Rave\Facades\Rave"
         ];
     }
 

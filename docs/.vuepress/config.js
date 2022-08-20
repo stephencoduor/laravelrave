@@ -112,8 +112,8 @@ module.exports = {
    */
   themeConfig: {
     // Assumes GitHub. Can also be a full GitLab url.
-    repo: 'kingflamez/laravelrave',
-    docsRepo: 'kingflamez/laravelrave',
+    repo: 'stephen/laravelrave',
+    docsRepo: 'stephen/laravelrave',
     docsDir: 'docs',
     // defaults to false, set to true to enable
     editLinks: true,

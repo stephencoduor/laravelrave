@@ -1,12 +1,12 @@
 {
-    "name": "kingflamez/laravelrave",
-    "description": "A Laravel 5 Package for Flutterwave Rave",
-    "keywords": ["php","github", "laravel","Open Source","payments", "kingflamez", "Flutterwave Rave", "Flutterwave", "rave", "ravepay.co","laravel 5"],
+    "name": "Stephen/laravelrave",
+    "description": "A Laravel 8|9 Package for Flutterwave Rave",
+    "keywords": ["php","github", "laravel","Open Source","payments", "Stephen", "Flutterwave Rave", "Flutterwave", "rave", "ravepay.co","laravel 8|9"],
     "license": "MIT",
     "authors": [
         {
-            "name": "kingflamez",
-            "email": "flamekeed@gmail.com"
+            "name": "stephen",
+            "email": "stephencoduor@gmail.com"
         }
     ],
     "minimum-stability": "stable",
@@ -29,7 +29,7 @@
             "src/Rave.php"
         ],
         "psr-4": {
-          "KingFlamez\\Rave\\": "src/"
+          "Stephen\\Rave\\": "src/"
         }
     },
     "autoload-dev": {
@@ -43,10 +43,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "KingFlamez\\Rave\\RaveServiceProvider"
+                "Stephen\\Rave\\RaveServiceProvider"
             ],
             "aliases": {
-                "Rave": "KingFlamez\\Rave\\Facades\\Rave"
+                "Rave": "Stephen\\Rave\\Facades\\Rave"
             }
         }
     }
