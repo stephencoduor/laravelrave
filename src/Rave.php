@@ -1,15 +1,15 @@
 <?php
 
-namespace Stephen\Rave;
+namespace StephenCoduor\Rave;
 
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Http;
-use Stephen\Rave\Helpers\Banks;
-use Stephen\Rave\Helpers\Beneficiary;
-use Stephen\Rave\Helpers\Payments;
-use Stephen\Rave\Helpers\Transfers;
-use Stephen\Rave\Helpers\Verification;
-use Stephen\Rave\Helpers\Subaccount;
+use StephenCoduor\Rave\Helpers\Banks;
+use StephenCoduor\Rave\Helpers\Beneficiary;
+use StephenCoduor\Rave\Helpers\Payments;
+use StephenCoduor\Rave\Helpers\Transfers;
+use StephenCoduor\Rave\Helpers\Verification;
+use StephenCoduor\Rave\Helpers\Subaccount;
 
 /**
  * Flutterwave's Rave payment laravel package

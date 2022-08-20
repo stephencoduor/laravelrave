@@ -23,7 +23,7 @@ Route::get('/rave/callback', [FlutterwaveController::class, 'callback'])->name('
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use Stephen\Rave\Facades\Rave as Flutterwave;
+use StephenCoduor\Rave\Facades\Rave as Flutterwave;
 
 class FlutterwaveController extends Controller
 {
@@ -65,7 +65,7 @@ eg
 
 namespace App\Http\Controllers;
 
-use Stephen\Rave\Facades\Rave as Flutterwave;
+use StephenCoduor\Rave\Facades\Rave as Flutterwave;
 
 class FlutterwaveController extends Controller
 {

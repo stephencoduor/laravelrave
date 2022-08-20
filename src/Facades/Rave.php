@@ -9,13 +9,13 @@
  * file that was distributed with this source code.
  */
 
-namespace Stephen\Rave\Facades;
+namespace StephenCoduor\Rave\Facades;
 
 use Illuminate\Support\Facades\Facade;
-use Stephen\Rave\Helpers\Banks;
-use Stephen\Rave\Helpers\Beneficiary;
-use Stephen\Rave\Helpers\Payments;
-use Stephen\Rave\Helpers\Transfers;
+use StephenCoduor\Rave\Helpers\Banks;
+use StephenCoduor\Rave\Helpers\Beneficiary;
+use StephenCoduor\Rave\Helpers\Payments;
+use StephenCoduor\Rave\Helpers\Transfers;
 
 /**
  * Class Rave
@@ -30,7 +30,7 @@ use Stephen\Rave\Helpers\Transfers;
  * @method static Transfers transfers()
  * @method static Beneficiary beneficiaries()
  *
- * @see \Stephen\Rave\Rave
+ * @see \StephenCoduor\Rave\Rave
  *
  */
 class Rave extends Facade

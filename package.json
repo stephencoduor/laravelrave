@@ -4,10 +4,10 @@
   "description": "A Laravel package that makes it easy to use Flutterwave APIs",
   "main": "index.js",
   "authors": {
-    "name": "Oluwole Adebiyi (Stephen)",
+    "name": "Oluwole Adebiyi (StephenCoduor)",
     "email": "flamekeed@gmail.com"
   },
-  "repository": "https://github.com/stephen/laravelrave/docs",
+  "repository": "https://github.com/stephencoduor/laravelrave/docs",
   "scripts": {
     "dev": "vuepress dev docs",
     "build": "vuepress build docs"

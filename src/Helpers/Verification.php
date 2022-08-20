@@ -1,6 +1,6 @@
 <?php
 
-namespace Stephen\Rave\Helpers;
+namespace StephenCoduor\Rave\Helpers;
 
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Http;

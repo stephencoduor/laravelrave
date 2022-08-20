@@ -4,7 +4,7 @@ namespace Tests\Feature;
 
 use Tests\TestCase;
 use Tests\Stubs\Request;
-use Stephen\Rave\Rave;
+use StephenCoduor\Rave\Rave;
 use Tests\Stubs\PaymentEventHandler;
 use Tests\Concerns\ExtractProperties;
 

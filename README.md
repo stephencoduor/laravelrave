@@ -54,21 +54,21 @@ I will be working on this next
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
 
-[ico-version]: https://img.shields.io/packagist/v/stephen/laravelrave.svg?style=flat-square
+[ico-version]: https://img.shields.io/packagist/v/stephencoduor/laravelrave.svg?style=flat-square
 [ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
 <!-- [ico-travis]: https://travis-ci.org/toondaey/laravelrave.svg?branch=master -->
-<!-- [ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/stephen/laravelrave.svg?style=flat-square -->
+<!-- [ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/stephencoduor/laravelrave.svg?style=flat-square -->
 <!-- [ico-code-quality]: https://scrutinizer-ci.com/g/toondaey/laravelrave/badges/quality-score.png?b=master -->
 <!-- [ico-code-intelligence]: https://scrutinizer-ci.com/g/toondaey/laravelrave/badges/code-intelligence.svg?b=master -->
 <!-- [ico-coverage]: https://scrutinizer-ci.com/g/toondaey/laravelrave/badges/coverage.png?b=master -->
-[ico-downloads]: https://img.shields.io/packagist/dt/stephen/laravelrave.svg?style=flat-square
+[ico-downloads]: https://img.shields.io/packagist/dt/stephencoduor/laravelrave.svg?style=flat-square
 
-[link-packagist]: https://packagist.org/packages/stephen/laravelrave
+[link-packagist]: https://packagist.org/packages/stephencoduor/laravelrave
 [link-travis]: https://travis-ci.org/toondaey/laravelrave
-[link-scrutinizer]: https://scrutinizer-ci.com/g/stephen/laravelrave/code-structure
+[link-scrutinizer]: https://scrutinizer-ci.com/g/stephencoduor/laravelrave/code-structure
 [link-code-quality]: https://scrutinizer-ci.com/g/toondaey/laravelrave/?branch=master
-[link-downloads]: https://packagist.org/packages/stephen/laravelrave
-[link-author]: https://github.com/stephen
+[link-downloads]: https://packagist.org/packages/stephencoduor/laravelrave
+[link-author]: https://github.com/stephencoduor
 [link-contributors]: ../../contributors
 [link-coverage]: https://scrutinizer-ci.com/g/toondaey/laravelrave/?branch=master
 [link-code-intelligence]: https://scrutinizer-ci.com/code-intelligence

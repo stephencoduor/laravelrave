@@ -1,6 +1,6 @@
 <?php
 
-namespace Stephen\Rave\Helpers;
+namespace StephenCoduor\Rave\Helpers;
 
 /**
  * Flutterwave's Rave payment laravel package
